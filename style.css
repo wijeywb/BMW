@@ -224,7 +224,7 @@ display: flex;
     background-color:#F994A0 ;
     border-radius: 40px;
     color: #ffffff;
-    padding: 20px 47px;
+    padding: 30px;
     font-family: Gilroy, sans-serif;
     font-size: 24px;
     width:100% ;
@@ -270,13 +270,21 @@ display: flex;
 
 .imput__img{
     width:700px;
-    height:282px;  
+      
 }
 
 .contacts__h1{
     font-size: 32px;
 }
 
+footer{
+    color:#FFF
+}
+
+.footer_contact{
+  list-style-type: none;
+    
+}
 
 @media(max-width:990px){
     .about-cards{
@@ -292,6 +300,11 @@ display: flex;
     }
 }
 
+@media(max-width:950px){
+    .imput__img {
+        width: 500px;
+    }
+}
 
 @media(max-width:700px){
     .header{
@@ -307,6 +320,13 @@ display: flex;
         font-size: -webkit-xxx-large;
        
        
+    }
+}
+
+
+@media(max-width:750px){
+    .imput__img {
+        width: 300px;
     }
 }
 
@@ -328,6 +348,10 @@ display: flex;
     .menu__item {
         margin-left: 20px;
     }
+     .imput {
+        flex-direction: column;
+        padding:0;
+    }
 }
 
 @media(max-width:400px){
@@ -337,5 +361,8 @@ display: flex;
         justify-content: center;
 
     }
-    
+    .contacts__h1 {
+        font-size: 24px;
+    }
 }
+
