@@ -348,9 +348,8 @@ footer{
     .menu__item {
         margin-left: 20px;
     }
-     .imput {
+     .user {
         flex-direction: column;
-        padding:0;
     }
 }
 
