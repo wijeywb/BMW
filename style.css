@@ -365,3 +365,8 @@ footer{
     }
 }
 
+@media(max-width:340px){
+    .imput__img {
+        width: 200px;
+    }
+}
